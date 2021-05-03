@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+body {
+  background-color: #181719;
+  color: #FFF;
+  padding: 0 4rem;
+}
+
+/* HEADER */
+header {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid #FFF;
+  padding: .8rem;
+}
+
+.logo p {
+  font-size: 1.4rem;
+  font-family: 'Crimson pro', sans-serif;
+  font-weight: 200;
+}
+
+.links > a + a {
+  margin-left: 9rem;
+}
+
+.links a {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  width: 40rem;
+}
+
+.left h1 {
+  font-size: 4.8rem;
+  font-family: 'Lora', sans-serif;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.left p {
+  font-size: 2.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.left a {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  position: relative;
+}
+
+.right > img {
+  width: 80rem;
+}
+
+.right .card {
+  padding: 2rem;
+  width: 41rem;
+  position: absolute;
+  bottom: -14%;
+  right: 5%;
+  background-color: #181719;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+}
+
+.right .card .card-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right .card .card-top > img {
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.right .card .card-top > div {
+  margin-left: 2rem;
+}
+
+.right .card .card-top .name {
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.right .card .card-top .role {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #828282;
+}
+
+.right .card .card-bottom > p {
+  font-size: 2.4rem;
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+}
+/* FOOTER */
+
+footer {
+  margin-top: 10rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  font-size: 1.4rem;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #A9A9A9;
+}
+
+@media(max-width: 1400px) {
+  html {
+    font-size: 56.5%;
+  }
+}
