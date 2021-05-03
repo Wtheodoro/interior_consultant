@@ -16,7 +16,7 @@ a {
 body {
   background-color: #181719;
   color: #FFF;
-  padding: 0 4rem;
+  padding: 2rem 6rem 0 6rem;
 }
 
 /* HEADER */
@@ -50,6 +50,7 @@ header {
 
 /* MAIN */
 main {
+  margin-top: 15rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,7 +87,7 @@ main {
 }
 
 .right > img {
-  width: 80rem;
+  width: 75rem;
 }
 
 .right .card {
@@ -135,7 +136,7 @@ main {
 /* FOOTER */
 
 footer {
-  margin-top: 10rem;
+  margin-top: 15rem;
   height: 5rem;
   display: flex;
   justify-content: center;
