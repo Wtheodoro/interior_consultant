@@ -1,7 +1,7 @@
 # Me team page
 
 ![GIF](https://github.com/Wtheodoro/interior_consultant/blob/main/gif/desktop.gif)
-![GIF](https://github.com/Wtheodoro/interior_consultant/blob/main/gif/responsive.gif)
+![GIF](https://github.com/Wtheodoro/interior_consultant/blob/main/gif/mobile.gif)
 
 check on [Pages](https://wtheodoro.github.io/interior_consultant/)
 
