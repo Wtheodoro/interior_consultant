@@ -53,6 +53,30 @@ header {
   font-weight: 700;
 }
 
+.links a:hover {
+  border-bottom: 2px solid #FFF;
+}
+
+.links.active {
+  display: block;
+  background-color: #181719;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links.active > a + a {
+  margin-left: 0;
+  margin-top: 9rem;
+}
+
 /* MAIN */
 main {
   margin-top: 15rem;
@@ -157,6 +181,8 @@ footer > p {
   color: #A9A9A9;
 }
 
+/* QUERIES */
+
 @media(max-width: 1366px) {
   html {
     font-size: 56.5%;
@@ -201,7 +227,7 @@ footer > p {
   
 }
 
-@media(max-width: 411px) {
+@media(max-width: 425px) {
   .right > img {
     width: 49rem;
   }
